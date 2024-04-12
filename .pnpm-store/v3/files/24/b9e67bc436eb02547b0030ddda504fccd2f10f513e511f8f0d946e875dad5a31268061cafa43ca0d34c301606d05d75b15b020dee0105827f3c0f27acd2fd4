@@ -1,0 +1,7 @@
+import { useNuxtApp, useRequestEvent } from "#imports";
+export const useAuth = () => {
+  return useNuxtApp().$auth;
+};
+export const useKindeClient = () => {
+  return useRequestEvent()?.context.kinde || null;
+};

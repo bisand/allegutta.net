@@ -1,0 +1,3 @@
+import type { AuthState } from './types';
+export declare const useAuth: () => AuthState;
+export declare const useKindeClient: () => any;

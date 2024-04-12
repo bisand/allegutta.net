@@ -1,0 +1,9 @@
+declare const _default: import("h3").EventHandler<import("h3").EventHandlerRequest, {
+    apiPath: any;
+    redirectURL: any;
+    postLoginRedirectURL: any;
+    logoutRedirectURL: any;
+    clientID: any;
+    clientSecret: string;
+}>;
+export default _default;
