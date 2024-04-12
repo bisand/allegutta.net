@@ -1,6 +1,0 @@
-import type { Plugin } from 'nuxt/app';
-import type { AuthState } from './types';
-declare const _default: Plugin<{
-    auth: AuthState;
-}>;
-export default _default;
